@@ -1,0 +1,31 @@
+:root {
+    --salmon: 3, 76%, 75%; /* #EE9591 */
+    --light-pink: 6, 73%, 86%; /* #F7C7C4 */
+    --black: 0, 0%, 13%; /* #222 */
+    --dark-grey: 0, 0%, 33%; /* #555555 */
+    --light-grey: 0, 0%, 53%; /* #888888 */
+}
+
+.text-primary {
+    color: hsl(var(--dark-grey));
+}
+
+.text-secondary {
+    color: hsl(var(--light-grey));
+}
+
+.text-salmon {
+    color: hsl(var(--salmon));
+}
+
+.title-primary {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: hsl(var(--dark-grey));
+}
+
+.title-secondary {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: hsl(var(--dark-grey));
+}

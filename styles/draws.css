@@ -1,0 +1,44 @@
+/*  pontos em formato de L */
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #f3080856;
+}
+
+.dot-box {
+    
+    width: 72px;
+    height: 72px;
+    display: grid;
+    width: fit-content;
+    gap: 0.4rem;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.false-dots {
+    grid-column: 1 / 5;
+    grid-row: 6 / 10;
+}
+
+/* circulo vermelho com o meio rosa */
+.pink-salmon-circle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: hsl(var(--light-pink));
+    position: relative;
+}
+
+.pink-salmon-circle::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: hsl(var(--salmon));
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
