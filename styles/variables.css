@@ -4,6 +4,18 @@
     --black: 0, 0%, 13%; /* #222 */
     --dark-grey: 0, 0%, 33%; /* #555555 */
     --light-grey: 0, 0%, 53%; /* #888888 */
+    --small-box-border-radius: 16px;
+    --normal-size-text: 0.875rem; /* 14px */
+    --small-size-text: 0.75rem; /* 12px */
+    --smaller-size-text: 0.625rem; /* 10px */
+}
+
+.display-none {
+    display: none;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .text-primary {
@@ -20,12 +32,25 @@
 
 .title-primary {
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: hsl(var(--dark-grey));
 }
 
 .title-secondary {
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.625rem;
     color: hsl(var(--dark-grey));
+    text-wrap: auto;
+}
+
+.default-size-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.bolder-default-text {
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.3px;
 }
