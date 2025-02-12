@@ -346,6 +346,8 @@ footer {
         padding-inline: 3rem;
     }
 
+    
+
     /* hero-section */
     .hero-section {
         align-items: start;
@@ -363,6 +365,10 @@ footer {
     }
 
     .socials-section {
+        h2 {
+            white-space: nowrap;
+        }
+
         .socials-box-area {
             grid-template-columns: minmax(250px, 300px) minmax(250px, 300px);
         }
@@ -385,6 +391,7 @@ footer {
     }
 
     .digitalisasi-section {
+        margin-top: 4rem;
         h2 {
             font-size: 2.5rem;
             width: 70%;
@@ -411,6 +418,11 @@ footer {
 @media (min-width: 1024px) {
     section {
         padding-inline: 3.5rem;
+       
+    }
+
+    section h2.title-secondary {
+        font-size: 2.5rem;
     }
 
     .percent-section {
